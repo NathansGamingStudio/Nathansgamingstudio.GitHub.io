@@ -114,3 +114,6 @@ button.dark-mode {
   margin-left: 10px;
   cursor: pointer;
 }
+body {
+  background-color: #c0d9e7;
+}
