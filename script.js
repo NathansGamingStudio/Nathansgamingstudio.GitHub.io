@@ -52,3 +52,18 @@ function checkCookies() {
 }
 
 checkCookies();
+
+let mode = "basic";
+let modeToggle = document.getElementById("mode-toggle");
+
+function toggleMode() {
+  if (mode === "basic") {
+    mode = "scientific";
+    modeToggle.innerHTML = "Basic";
+    // add code for switching to scientific mode
+  } else {
+    mode = "basic";
+    modeToggle.innerHTML = "Scientific";
+    // add code for switching to basic mode
+  }
+}
